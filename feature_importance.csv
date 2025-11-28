@@ -1,0 +1,10 @@
+Feature,Importance
+OverTime,0.20739363
+JobSatisfaction,0.16012837
+MaritalStatus,0.13775313
+YearsAtCompany,0.11869084
+JobRole,0.09722401
+Department,0.08553733
+Age,0.083378606
+MonthlyIncome,0.06484503
+PerformanceRating,0.04504909
