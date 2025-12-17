@@ -99,7 +99,9 @@ Prevented attrition leadsTMs estimated via True Positives
 
 ➡️ Significant potential savings for HR teams
 
+
 🖥️ Streamlit Dashboard Features
+
 
 📊 Attrition prediction for individual employees
 
@@ -110,3 +112,42 @@ Prevented attrition leadsTMs estimated via True Positives
 🔍 Feature importance insights
 
 💡 HR-friendly explanations
+
+
+🛠️ Tech Stack
+
+Python
+
+Pandas, NumPy
+
+Scikit-learn
+
+Matplotlib, Seaborn
+
+Streamlit
+
+Joblib
+
+Future Enhancements
+
+Threshold tuning for better recall
+
+SHAP explainability
+
+Department-wise attrition analysis
+
+Cloud deployment (AWS / Azure)
+
+👩‍💼 HR-Friendly Summary
+
+This system helps HR teams identify at-risk employees early, understand why they may leave, and take proactive retention actions, reducing turnover costs and improving workforce stability.
+
+
+
+👩‍💻 Author
+
+Tamilselvi Nataraja
+🎓 MSc Software Engineering
+🤖 Aspiring Machine Learning Engineer
+📊 Passionate about building end-to-end ML projects with real-world business impact
+💡 Interested in Data Science, Machine Learning, and AI-driven solutions
