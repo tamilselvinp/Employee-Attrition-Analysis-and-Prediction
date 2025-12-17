@@ -1,31 +1,112 @@
-# Employee-Attrition-Analysis-and-Prediction
-Project Overview  Employee attrition (or turnover) is a critical concern for organizations because it affects productivity, morale, and operational costs. This project aims to analyze factors contributing to employee attrition and predict employees at high risk of leaving using machine learning models.
-Features of the Project
+📊 Employee Attrition Prediction System
 
-Exploratory Data Analysis (EDA):
+Predict employee attrition risk using Machine Learning to support data-driven HR retention strategies.
+🚀 Project Overview
 
-Visualizes trends, distributions, and correlations of features.
+Employee attrition is a major challenge for organizations, leading to increased hiring costs, productivity loss, and knowledge drain.
 
-Highlights patterns in attrition and performance metrics.
+This project builds an end-to-end Machine Learning solution that:
 
-Data Preprocessing:
+Predicts which employees are at risk of leaving
 
-Handles numeric and categorical variables.
+Identifies key drivers of attrition
 
-Scales numeric features and encodes categorical features using ColumnTransformer pipelines.
+Presents insights through an interactive Streamlit dashboard
 
-Supports multiple target variables, including attrition, promotion likelihood, performance rating, and job satisfaction.
+Supports HR teams with actionable business insights
+🎯 Business Objectives
 
-Machine Learning Models:
+Reduce employee turnover
 
-Trains Random Forest models for predicting attrition and other HR-related outcomes.
+Identify high-risk employees early
 
-Uses pipelines to combine preprocessing and modeling for reproducibility.
+Optimize HR retention strategies
 
-Can be extended to other tree-based models like XGBoost.
+Estimate potential cost savings from prevented attrition
+🧠 Machine Learning Approach
 
-Model Evaluation:
+Model Used: Random Forest Classifier (Balanced)
 
-Computes performance metrics: Accuracy, F1-score, Precision, Recall, ROC-AUC.
+Problem Type: Binary Classification
 
-Identifies top features influencing employee attrition (feature importance).
+Target Variable: Attrition (0 = No, 1 = Yes)
+
+🧹 Data Preprocessing
+
+✔ Dropped irrelevant columns
+✔ Handled missing values safely
+✔ Encoded categorical variables
+✔ Removed duplicates
+✔ Scaled numerical features
+✔ Verified target variable integrity
+
+📈 Exploratory Data Analysis (EDA)
+
+Attrition distribution analysis
+
+Feature relationships with attrition
+
+Key workforce trends
+
+📊 Model Performance
+Metric	Score
+Accuracy	~83%
+Precision	High
+Recall	Optimized for attrition detection
+F1-Score	Balanced
+AUC-ROC	Strong class separation
+
+🔍 Confusion Matrix Interpretation
+
+True Positives: Employees correctly predicted to leave
+
+False Negatives: Employees at risk but missed (critical for HR)
+
+False Positives: Employees incorrectly flagged as high risk
+
+This helps HR focus on preventable attrition.
+
+🔑 Feature Importance (Key Drivers)
+
+Top drivers of attrition include:
+
+Overtime
+
+Monthly Income
+
+Job Role
+
+Years at Company
+
+Work-Life Balance
+
+Age
+
+💼 Business Impact Metrics
+📉 Attrition Rate Comparison
+
+Actual Attrition (Test Data): ~16%
+
+Predicted Attrition (Model): ~9%
+
+💰 Estimated Cost Savings
+
+Using HR assumptions:
+
+Cost per employee attrition ≈ ₹2,00,000
+
+Prevented attrition leadsTMs estimated via True Positives
+
+➡️ Significant potential savings for HR teams
+
+🖥️ Streamlit Dashboard Features
+
+📊 Attrition prediction for individual employees
+
+📈 Visual analytics & KPIs
+
+📉 Confusion matrix visualization
+
+🔍 Feature importance insights
+
+💡 HR-friendly explanations
